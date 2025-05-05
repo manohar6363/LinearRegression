@@ -42,7 +42,7 @@ print(model.predict([[16,1024]]))
 print(model.coef_[0])
 print(model.intercept_)'''
 
-'''from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression
 import numpy as np
 model = LinearRegression()
 x = np.array([
@@ -59,7 +59,7 @@ y = np.array([0.6, 0.8, 1.0, 1.3, 1.5, 1.8, 2.2, 2.8])
 model.fit(x,y)
 print(model.predict([[12,1024,108]]))
 print(model.coef_)
-print(model.intercept_)'''
+print(model.intercept_)
 
 from sklearn.linear_model import LinearRegression
 import numpy as np
